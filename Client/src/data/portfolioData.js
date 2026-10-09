@@ -13,7 +13,8 @@ export const personalInfo = {
   resumePath: "https://drive.google.com/file/d/1fJiKE8hXeNJLIlsV0YRF2YIpP4M823-z/view?usp=sharing",
   email: "gajendraverma085@gmail.com",
   github: "https://github.com/gaj085",
-  linkedin: "https://www.linkedin.com/in/gajendra-verma-a89857135/",
+  linkedin: "https://www.linkedin.com/in/gjvrm085",
+  portfolioUrl: "https://portfolio-ten-psi-ex08m96hks.vercel.app/",
 };
 
 export const heroStats = [
