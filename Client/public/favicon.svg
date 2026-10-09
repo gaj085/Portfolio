@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="128" height="128">
+  <defs>
+    <!-- Crisp Rounded Board Clip -->
+    <clipPath id="board-clip">
+      <rect width="100" height="100" rx="20" ry="20" />
+    </clipPath>
+
+    <!-- Vibrant Specular Pawn Gradient -->
+    <linearGradient id="pawn-body" x1="20%" y1="0%" x2="80%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="65%" stop-color="#f4f7fa" />
+      <stop offset="100%" stop-color="#dde2ec" />
+    </linearGradient>
+
+    <!-- Pawn Shadow Shade Gradient -->
+    <linearGradient id="pawn-shade" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.9" />
+      <stop offset="45%" stop-color="#ffffff" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#9aa2b4" stop-opacity="0.6" />
+    </linearGradient>
+
+    <!-- Subtle rim bevel -->
+    <linearGradient id="rim-bevel" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#c5cbd8" />
+    </linearGradient>
+  </defs>
+
+  <g clip-path="url(#board-clip)">
+    <!-- High-Contrast Vibrant Chessboard (Chess.com Signature Rich Green Palette) -->
+    <!-- Row 1 -->
+    <rect x="0" y="0" width="25" height="25" fill="#387428" />
+    <rect x="25" y="0" width="25" height="25" fill="#67ad42" />
+    <rect x="50" y="0" width="25" height="25" fill="#387428" />
+    <rect x="75" y="0" width="25" height="25" fill="#67ad42" />
+
+    <!-- Row 2 -->
+    <rect x="0" y="25" width="25" height="25" fill="#67ad42" />
+    <rect x="25" y="25" width="25" height="25" fill="#387428" />
+    <rect x="50" y="25" width="25" height="25" fill="#67ad42" />
+    <rect x="75" y="25" width="25" height="25" fill="#387428" />
+
+    <!-- Row 3 -->
+    <rect x="0" y="50" width="25" height="25" fill="#387428" />
+    <rect x="25" y="50" width="25" height="25" fill="#67ad42" />
+    <rect x="50" y="50" width="25" height="25" fill="#387428" />
+    <rect x="75" y="50" width="25" height="25" fill="#67ad42" />
+
+    <!-- Row 4 -->
+    <rect x="0" y="75" width="25" height="25" fill="#67ad42" />
+    <rect x="25" y="75" width="25" height="25" fill="#387428" />
+    <rect x="50" y="75" width="25" height="25" fill="#67ad42" />
+    <rect x="75" y="75" width="25" height="25" fill="#387428" />
+
+    <!-- Long 45-degree Crisp Flat Cast Shadow -->
+    <path d="M 50 33 L 130 113 L 95 140 L 35 80 Z" fill="#1b3d13" opacity="0.88" />
+    <polygon points="56,43 135,122 105,145 64,74" fill="#1b3d13" opacity="0.9" />
+    <polygon points="63,73 135,145 88,145 64,79" fill="#1b3d13" opacity="0.92" />
+
+    <!-- Pure White Chess Pawn Structure -->
+    <!-- Base Bottom Pedestal Plate -->
+    <ellipse cx="50" cy="79.5" rx="17" ry="3.5" fill="#1f3b18" opacity="0.4" />
+    <path d="M 32 78 Q 50 80 68 78 L 67 73 Q 50 74.5 33 73 Z" fill="url(#rim-bevel)" />
+    <rect x="34" y="72" width="32" height="4" rx="2" fill="#ffffff" />
+
+    <!-- Base Waist Slope -->
+    <path d="M 35 72 Q 42 63 45.5 53 L 54.5 53 Q 58 63 65 72 Z" fill="url(#pawn-body)" />
+
+    <!-- Collar / Ring Layer -->
+    <ellipse cx="50" cy="46" rx="9" ry="3" fill="#cfd6e4" />
+    <ellipse cx="50" cy="45" rx="8.5" ry="2.7" fill="#ffffff" />
+    <rect x="45.5" y="45" width="9" height="8" fill="url(#pawn-body)" />
+
+    <!-- Pawn Neck -->
+    <path d="M 45.5 45.5 Q 46.5 50 45.5 53 L 54.5 53 Q 53.5 50 54.5 45.5 Z" fill="url(#pawn-body)" />
+
+    <!-- Pawn Head (Top Sphere) -->
+    <circle cx="50" cy="35" r="8.5" fill="url(#pawn-body)" />
+
+    <!-- Pawn Head Specular Highlights -->
+    <ellipse cx="47.5" cy="32" rx="3.5" ry="2.5" fill="#ffffff" />
+    <circle cx="46.5" cy="31" r="1.5" fill="#ffffff" />
+
+    <!-- Right-Side 3D Depth Shadowing on the Pawn -->
+    <path d="M 50 26.5 A 8.5 8.5 0 0 1 58.5 35 A 8.5 8.5 0 0 1 53 43 Q 48.5 37 50 26.5 Z" fill="#9ba5b8" opacity="0.32" />
+    <path d="M 50 53 Q 54 62 61 70 Q 55 68 50 53 Z" fill="#8f9bb0" opacity="0.28" />
+
+    <!-- Crisp Subtle Outline for Razor-Sharp Clarity on Any Tab -->
+    <circle cx="50" cy="35" r="8.5" fill="none" stroke="#2a4521" stroke-width="0.8" opacity="0.4" />
+    <path d="M 33 73 Q 42 63 45.5 53 L 50 53 L 50 78 L 33 78 Z" fill="url(#pawn-shade)" opacity="0.45" />
+  </g>
+</svg>
